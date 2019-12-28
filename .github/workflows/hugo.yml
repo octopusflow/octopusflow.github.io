@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-    - master
+    - source
 
 jobs:
   build:
@@ -22,5 +22,5 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         # PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
+        PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
