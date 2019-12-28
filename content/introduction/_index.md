@@ -10,4 +10,5 @@ pre = "<b>0. </b>"
 
 # Introduction
 
-Octopusflow introduction
+Octopusflow aims to connect RDS(MySQL) and Elasticsearch, Redis with batteries included.
+
