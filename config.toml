@@ -14,3 +14,18 @@ identifier = "ds"
 url = "https://github.com/octopusflow/"
 weight = 10
 
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+title = "Documentation for Octopusflow"
+weight = 1
+languageName = "English"
+
+[Languages.zh]
+title = "Octopusfow 文档"
+weight = 2
+languageName = "中文"
